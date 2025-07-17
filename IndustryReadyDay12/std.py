@@ -16,6 +16,6 @@ print(f"Student Name: {std.name}")
 print(f"Marks: {std.marks}")
 print(f"Average Marks: {std.average()}")
 print(f"Passed: {'Yes' if std.is_passed() else 'No'}")
-print(std.is_passed())
+
 
         
