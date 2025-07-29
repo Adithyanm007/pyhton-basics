@@ -1,4 +1,4 @@
-from flask import Flask,request,jsonify
+from flask import Flask,request,jsonify # type: ignore
 app=Flask(__name__)
 data_store=[]
 @app.route('/data',methods=['POST','GET'])
